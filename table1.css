@@ -1,0 +1,40 @@
+table, th, td {
+    border-bottom: 2px solid;
+    border-collapse: collapse;
+    border-color: grey;
+    font-size: 20px;
+}
+
+th {
+    background-color: rgb(0, 162, 255);
+    padding: 20px;
+    color: aliceblue;
+
+}
+
+td{
+    padding: 20px;
+}
+
+div{
+    width: 80%;
+    margin:auto;
+}
+
+tr:hover{
+    background-color: darkgray;
+}
+
+button{
+    background-color: green;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+button.Poor{
+    background-color: red;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
+}
